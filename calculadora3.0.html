@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 3.0</title>
+    <link rel="stylesheet" href="calculadora3.0.css">
+</head>
+<body>
+    <header>
+        <h1>C A L C U L A D O R A </h1>
+    </header>
+
+    
+    <div id="calculadora">
+        <div id="resposta"></div>
+        <td><button class="bot" style="color: blueviolet;" onclick="limpar()">CE</button></td>
+        <td><button class="bot" >C</button></td>
+        <td><button class="bot" onclick="porcentagem()">%</button></td>
+        <td><button class="bot" style="background-color: blueviolet;" onclick="insert('/')">/</button></td>
+        <br>
+        <td><button class="bot" onclick="insert('7')">7</button></td>
+        <td><button class="bot" onclick="insert('8')">8</button></td>
+        <td><button class="bot" onclick="insert('9')">9</button></td>
+        <td><button class="bot" style="background-color: blueviolet;" onclick="insert('*')">x</button></td>
+        <br>
+        <td><button class="bot" onclick="insert('4')">4</button></td>
+        <td><button class="bot" onclick="insert('5')">5</button></td>
+        <td><button class="bot" onclick="insert('6')">6</button></td>
+        <td><button class="bot" style="background-color: blueviolet;" onclick="insert('-')">-</button></td>
+        <br>
+        <td><button class="bot" onclick="insert('1')">1</button></td>
+        <td><button class="bot" onclick="insert('2')">2</button></td>
+        <td><button class="bot" onclick="insert('3')">3</button></td>
+        <td><button class="bot" style="background-color: blueviolet;" onclick="insert('+')">+</button></td>
+        <br>
+        <td><button class="bot">+/-</button></td>
+        <td><button class="bot" onclick="insert('0')">0</button></td>
+        <td><button class="bot">,</button></td>
+        <td><button class="bot" style="background-color: blueviolet;" onclick="calcular()">=</button></td>
+    </div>    
+    <footer><p><strong>&copy;AlxCorp</strong></p></footer>
+    <script src="calculadora3.0.js"></script>
+</body>
+</html>
